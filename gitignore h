@@ -1,0 +1,142 @@
+# =========================================================================
+# Cyber Shield SOC / C++ Project - Git Ignore Rules
+# =========================================================================
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.bak
+
+# Environment variables and sensitive local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+id_rsa
+id_ecdsa
+
+# C and C++ compiled objects and libraries
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.la
+*.lai
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app/
+*.class
+*.pch
+*.gch
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# Build output directories
+build/
+cmake-build-*/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+out/
+debug/
+release/
+Debug/
+Release/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+!**/Makefile
+
+# Autotools generated files
+aclocal.m4
+autom4te.cache/
+autoconf-archive/
+autoscan.log
+config.log
+config.status
+configure
+libtool
+ltmain.sh
+missing
+install-sh
+depcomp
+
+# Ninja and Make build artifacts
+.ninja_deps
+.ninja_log
+.ninja_*
+
+# Visual Studio generated files
+.vs/
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.sdf
+*.opensdf
+ipch/
+
+# Xcode generated files
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Package managers / dependency directories
+vcpkg_installed/
+conanbuildinfo.*
+conaninfo.txt
+conan.lock
+
+# Test output, coverage, profiling, and logs
+Testing/
+coverage/
+htmlcov/
+*.gcov
+*.lcov
+*.prof
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.orig
+*.rej
+*.pid
+*.seed
+
+# Local databases and runtime files (remove these rules if they should be versioned)
+*.sqlite
+*.sqlite3
+*.db
